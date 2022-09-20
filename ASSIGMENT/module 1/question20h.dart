@@ -3,4 +3,3 @@
 import 'dart:math';
 
 void main() {}
-void fun() {}
