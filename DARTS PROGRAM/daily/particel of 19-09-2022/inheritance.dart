@@ -1,4 +1,8 @@
 class A {
+  a() {
+    print("class a constructor");
+  }
+
   void displayA() {
     print("A class display");
   }
@@ -10,8 +14,15 @@ class B extends A {
   }
 }
 
+class c extends B {
+  void displayc() {
+    print("c class display");
+  }
+}
+
 void main() {
-  var obj = new B();
+  var obj = new c();
   obj.displayA();
   obj.displayB();
+  obj.displayc();
 }
