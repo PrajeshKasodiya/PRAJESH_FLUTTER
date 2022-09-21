@@ -8,15 +8,14 @@ void main() {
 }
 
 void input() {
-  int num;
   print("Enter number 1 : ");
   int Fnum = int.parse(stdin.readLineSync()!);
   print("Enter number 2 : ");
   int Snum = int.parse(stdin.readLineSync()!);
 
-  num = Fnum;
-  Fnum = Snum;
-  Snum = num;
+  Fnum = Fnum + Snum;
+  Snum = Fnum - Snum;
+  Fnum = Fnum - Snum;
 
   print("After swap : \n");
   print("First number : $Fnum , Second number : $Snum");
