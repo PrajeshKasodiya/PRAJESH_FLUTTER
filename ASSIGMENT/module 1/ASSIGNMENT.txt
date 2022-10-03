@@ -112,4 +112,4 @@ ANS : Data Encapsulation is binding data and functions that use data into one un
 B34. Which of the Dart OOPS feature promotes access protection or data hiding?
 ANS : Encapsulation promotes access protection and data hiding.
 
-
+B35. 
